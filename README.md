@@ -10,7 +10,6 @@ git clone https://github.com/raksooo/pacmanwidget.git ~/.config/awesome/pacman
 ## Usage
 ```lua
 pacman = require("statusbar.pacman")
-
 local widget = pacman.create(0.7)
 ```
 And then add the widget to your wibar.
@@ -18,6 +17,6 @@ And then add the widget to your wibar.
 ## Pacman hook
 ```bash
 sed -i "s/<user>/$USER/" pacmanWidget.hook
-# cp pacmanWidget.hook /etc/pacman.d/hooks/
+cp pacmanWidget.hook /etc/pacman.d/hooks/
 ```
 
