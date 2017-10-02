@@ -14,7 +14,7 @@ function pacman.create(dotOpacity)
     },
     {
       image = gears.filesystem.get_configuration_dir()
-        .. "statusbar/pacman/pacman.png",
+        .. "pacman/pacman.png",
       widget = wibox.widget.imagebox
     },
     layout = wibox.layout.fixed.horizontal,
